@@ -1,2 +1,26 @@
 # CenoraStudio
-Innovation project that brings traditional production together with innovative solutions. With our accurate algorithm system, we connect producers and consumers at a smart meeting point. We aim to create a sustainable production and consumption cycle with AI-powered matching.
+
+AI-native bridal and lingerie matching. Turkish ateliers → global brides.
+
+## Repos
+
+| Repo | Role |
+| --- | --- |
+| [CENORA](https://github.com/CenoraStudio/CENORA) | Product API (FastAPI) |
+| [CenoraStudio](https://github.com/CenoraStudio/CenoraStudio) | Public brand site |
+| [CRMschaller](https://github.com/Cerenersen-max/CRMschaller) | Ops / partner CRM |
+
+## Run locally
+
+Open `index.html` or:
+
+```bash
+npx serve .
+```
+
+## Deploy
+
+Vercel project should point at this repository, production branch `main`.
+Cloudflare DNS stays in front: proxied CNAME to the Vercel target.
+
+Brand core: Midnight Blue `#111830`, Plum Perfect `#4A143B`, ivory.
