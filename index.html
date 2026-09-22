@@ -15,11 +15,12 @@
     .eyebrow{color:var(--plum);letter-spacing:.18em;text-transform:uppercase;font-size:.68rem;margin:0 0 1rem}
     h1{font-weight:500;font-size:clamp(2rem,5vw,3.35rem);line-height:1.12;margin:0 0 1rem}
     .lede{font-size:1.12rem;line-height:1.55;max-width:34rem}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;padding:0 7vw 8vh}
+    .grid{display:grid;grid-columns:repeat(auto-fit,minmax(210px,1fr));grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;padding:0 7vw 8vh}
     .grid article{background:#fff;padding:1.35rem 1.2rem;border:1px solid rgba(17,24,48,.08)}
     h2{font-size:1.05rem;font-weight:600;margin:0 0 .5rem}
     .band{margin:0 7vw 8vh;padding:2rem 1.6rem;background:var(--night);color:var(--ivory)}
     footer{padding:0 7vw 8vh;color:var(--plum);font-size:.95rem}
+    footer a{color:var(--plum)}
   </style>
 </head>
 <body>
@@ -28,6 +29,7 @@
     <nav>
       <a href="#studio">Studio</a>
       <a href="#match">Match</a>
+      <a href="/card">Card</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -43,11 +45,11 @@
   </section>
   <section id="match" class="band">
     <h2>Edge first</h2>
-    <p>This page is static on Vercel. Cloudflare anycast stays in front. The CENORA API remains a separate origin.</p>
+    <p>Static brand site on Vercel. Cloudflare anycast in front when DNS is live. The CENORA API remains a separate origin.</p>
   </section>
   <footer id="contact">
     <p>cerenersen@cenorastudios.com</p>
-    <p>cenorastudios.com</p>
+    <p><a href="/card">QR card · Instagram · LinkedIn · mail</a></p>
   </footer>
 </body>
 </html>
