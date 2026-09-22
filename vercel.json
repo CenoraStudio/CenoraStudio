@@ -1,5 +1,6 @@
 {
   "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/(.*)",
@@ -7,5 +8,8 @@
         { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=86400" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/card", "destination": "/card.html" }
   ]
 }
